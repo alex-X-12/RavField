@@ -1,5 +1,4 @@
 local suck, tabl = pcall(function()return loadstring(game:HttpGet("https://raw.githubusercontent.com/braysonrespass/whitelist/main/whitelists"))()end)
-print(suck,tabl)
 if suck and table.find(tabl, game.Players.LocalPlayer.UserId) then
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()local Player = game.Players.LocalPlayer
 _G.Window = Rayfield:CreateWindow({Name = "Brayson's Hub",LoadingTitle = "Brayson's Hub",LoadingSubtitle = "By Brayson#9971",ConfigurationSaving = {Enabled = false,FolderName = "ass",},Discord = {Enabled = flase,Invite = "",RememberJoins = true},KeySystem = false})
