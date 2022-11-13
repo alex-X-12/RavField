@@ -8,3 +8,5 @@ game.Players.LocalPlayer:Kick("buy whitelist from Brayson#9971 on discord")
 wait(3)
 game.Players.LocalPlayer:Remove()
 end
+
+return _G.Window
