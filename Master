@@ -7,7 +7,12 @@ if (function() for _,TId in ipairs(TshirtIds) do if MarketplaceService:PlayerOwn
     local Window = Rayfield:CreateWindow{
         Name = "Brayson's Hub",
         LoadingTitle = "In Honor Of BS:ED",
-        LoadingSubtitle = "By Alex_X_12#1192"
+        LoadingSubtitle = "By Alex_X_12#1192",
+	Discord = {
+        	Enabled = true,
+        	Invite = "dvqy2xcu",
+        	RememberJoins = false
+        },
     }
     getgenv().Rayfield = Rayfield
     getgenv().Window = Window
