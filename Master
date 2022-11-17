@@ -16,13 +16,13 @@ if (function() for _,TId in ipairs(TshirtIds) do if MarketplaceService:PlayerOwn
     }
     getgenv().Rayfield = Rayfield
     getgenv().Window = Window
-    delay(30,function()
+    delay(10,function()
     Rayfield:Notify({
     Title = "DO YOU LIKE BS:ED",
     Content = "",
-    Duration = 999999999999999999999999,
+    Duration = 9999999999999999999999999999999999999999999999,
     Image = 4483362458,
-    Actions = { -- Notification Buttons
+    Actions = {
         a = {
             Name = "YES",
             Callback = function()
@@ -31,7 +31,7 @@ if (function() for _,TId in ipairs(TshirtIds) do if MarketplaceService:PlayerOwn
                     Content = "NOW GO AND PLAY BSED",
                     Duration = 99999999999999999999999999999999999999999999999999,
                     Image = 4483362458,
-                    Actions = { -- Notification Buttons
+                    Actions = {
                         a = {
                             Name = "OK!",
                             Callback = function()
@@ -50,7 +50,7 @@ if (function() for _,TId in ipairs(TshirtIds) do if MarketplaceService:PlayerOwn
                     Content = "BSED IS THE BEST",
                     Duration = 99999999999999999999999999999999999999999999999999,
                     Image = 4483362458,
-                    Actions = { -- Notification Buttons
+                    Actions = {
                         a = {
                             Name = "YES IM NIGGER",
                             Callback = function()
